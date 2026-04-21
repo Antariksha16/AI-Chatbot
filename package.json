@@ -1,0 +1,15 @@
+{
+  "name": "career-guidance-bot",
+  "version": "1.0.0",
+  "description": "AI Career Guidance Chatbot — Dialogflow + Node.js + Vercel",
+  "scripts": {
+    "start": "node webhook/index.js",
+    "dev:webhook": "cd webhook && node index.js",
+    "dev:frontend": "cd frontend && npx vite",
+    "install:all": "cd webhook && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npx vite build"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
