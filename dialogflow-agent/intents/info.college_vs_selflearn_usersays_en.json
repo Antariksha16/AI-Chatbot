@@ -1,0 +1,62 @@
+[
+  {
+    "id": "phrase-college_vs_selflearn-0",
+    "data": [
+      {
+        "text": "do I need a degree",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-college_vs_selflearn-1",
+    "data": [
+      {
+        "text": "college vs self taught",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-college_vs_selflearn-2",
+    "data": [
+      {
+        "text": "is degree required",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-college_vs_selflearn-3",
+    "data": [
+      {
+        "text": "can I learn without degree",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-college_vs_selflearn-4",
+    "data": [
+      {
+        "text": "self study",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

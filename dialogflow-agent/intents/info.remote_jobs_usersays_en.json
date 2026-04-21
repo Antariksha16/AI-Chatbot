@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ph-info_remote_jobs-0",
+    "data": [
+      {
+        "text": "remote jobs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_remote_jobs-1",
+    "data": [
+      {
+        "text": "work from home jobs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_remote_jobs-2",
+    "data": [
+      {
+        "text": "remote tech jobs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_remote_jobs-3",
+    "data": [
+      {
+        "text": "best remote careers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_remote_jobs-4",
+    "data": [
+      {
+        "text": "how to get remote job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

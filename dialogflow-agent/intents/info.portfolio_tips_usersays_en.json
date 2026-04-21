@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ph-info_portfolio_tips-0",
+    "data": [
+      {
+        "text": "how to build portfolio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_portfolio_tips-1",
+    "data": [
+      {
+        "text": "portfolio tips for freshers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_portfolio_tips-2",
+    "data": [
+      {
+        "text": "what to put in portfolio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_portfolio_tips-3",
+    "data": [
+      {
+        "text": "GitHub portfolio",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_portfolio_tips-4",
+    "data": [
+      {
+        "text": "portfolio projects",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-career_transition-0",
+    "data": [
+      {
+        "text": "I want to switch careers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_transition-1",
+    "data": [
+      {
+        "text": "career change",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_transition-2",
+    "data": [
+      {
+        "text": "transition from IT to data science",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_transition-3",
+    "data": [
+      {
+        "text": "switching from web dev to AI",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_transition-4",
+    "data": [
+      {
+        "text": "how to change career",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_transition-5",
+    "data": [
+      {
+        "text": "career pivot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

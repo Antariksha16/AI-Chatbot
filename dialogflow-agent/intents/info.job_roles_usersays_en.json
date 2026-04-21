@@ -1,0 +1,86 @@
+[
+  {
+    "id": "phrase-job_roles-0",
+    "data": [
+      {
+        "text": "job roles",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-job_roles-1",
+    "data": [
+      {
+        "text": "what jobs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-job_roles-2",
+    "data": [
+      {
+        "text": "job titles",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-job_roles-3",
+    "data": [
+      {
+        "text": "career options",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-job_roles-4",
+    "data": [
+      {
+        "text": "positions available",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-job_roles-5",
+    "data": [
+      {
+        "text": "what can I become",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-job_roles-6",
+    "data": [
+      {
+        "text": "job opportunities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

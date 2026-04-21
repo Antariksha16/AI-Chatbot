@@ -1,0 +1,30 @@
+{
+  "id": "intent-restart",
+  "name": "session.restart",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "session.restart",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "\ud83d\udd04 Sure! Let's start fresh.\n\nWhich career field would you like to explore?\n\n\u2022 AI/ML  \u2022 Data Science  \u2022 Web Development\n\u2022 Cybersecurity  \u2022 Cloud Computing  \u2022 DevOps\n\u2022 UI/UX  \u2022 Mobile Dev  \u2022 Blockchain  \u2022 Game Dev"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

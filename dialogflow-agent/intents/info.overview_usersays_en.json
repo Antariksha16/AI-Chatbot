@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-overview-0",
+    "data": [
+      {
+        "text": "career overview",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-overview-1",
+    "data": [
+      {
+        "text": "tell me about",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-overview-2",
+    "data": [
+      {
+        "text": "explain this career",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-overview-3",
+    "data": [
+      {
+        "text": "what is",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-overview-4",
+    "data": [
+      {
+        "text": "give overview",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-overview-5",
+    "data": [
+      {
+        "text": "brief about this field",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

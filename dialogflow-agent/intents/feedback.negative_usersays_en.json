@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ph-feedback_negative-0",
+    "data": [
+      {
+        "text": "not helpful",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-feedback_negative-1",
+    "data": [
+      {
+        "text": "wrong answer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-feedback_negative-2",
+    "data": [
+      {
+        "text": "bad response",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-feedback_negative-3",
+    "data": [
+      {
+        "text": "this is incorrect",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-feedback_negative-4",
+    "data": [
+      {
+        "text": "not accurate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-feedback_negative-5",
+    "data": [
+      {
+        "text": "I don't like this",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

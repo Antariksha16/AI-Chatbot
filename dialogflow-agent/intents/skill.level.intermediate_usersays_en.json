@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-skill_level_intermediate-0",
+    "data": [
+      {
+        "text": "intermediate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_intermediate-1",
+    "data": [
+      {
+        "text": "I have some experience",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_intermediate-2",
+    "data": [
+      {
+        "text": "I know the basics",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_intermediate-3",
+    "data": [
+      {
+        "text": "mid level",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_intermediate-4",
+    "data": [
+      {
+        "text": "working for 1 year",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_intermediate-5",
+    "data": [
+      {
+        "text": "some knowledge",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "phrase-daily_work-0",
+    "data": [
+      {
+        "text": "what does a day look like",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-daily_work-1",
+    "data": [
+      {
+        "text": "daily tasks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-daily_work-2",
+    "data": [
+      {
+        "text": "typical work day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-daily_work-3",
+    "data": [
+      {
+        "text": "what do they do daily",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-daily_work-4",
+    "data": [
+      {
+        "text": "day in life",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

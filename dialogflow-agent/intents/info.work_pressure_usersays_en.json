@@ -1,0 +1,86 @@
+[
+  {
+    "id": "phrase-work_pressure-0",
+    "data": [
+      {
+        "text": "work pressure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-work_pressure-1",
+    "data": [
+      {
+        "text": "stress level",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-work_pressure-2",
+    "data": [
+      {
+        "text": "work life balance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-work_pressure-3",
+    "data": [
+      {
+        "text": "is it stressful",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-work_pressure-4",
+    "data": [
+      {
+        "text": "how demanding",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-work_pressure-5",
+    "data": [
+      {
+        "text": "job pressure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-work_pressure-6",
+    "data": [
+      {
+        "text": "work hours",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

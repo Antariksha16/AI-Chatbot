@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-career_select_cybersecurity-0",
+    "data": [
+      {
+        "text": "cybersecurity",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_cybersecurity-1",
+    "data": [
+      {
+        "text": "ethical hacking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_cybersecurity-2",
+    "data": [
+      {
+        "text": "cyber security",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_cybersecurity-3",
+    "data": [
+      {
+        "text": "network security",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_cybersecurity-4",
+    "data": [
+      {
+        "text": "information security",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_cybersecurity-5",
+    "data": [
+      {
+        "text": "pen testing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

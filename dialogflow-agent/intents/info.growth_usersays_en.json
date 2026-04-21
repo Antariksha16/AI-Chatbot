@@ -1,0 +1,86 @@
+[
+  {
+    "id": "phrase-growth-0",
+    "data": [
+      {
+        "text": "career growth",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-growth-1",
+    "data": [
+      {
+        "text": "future scope",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-growth-2",
+    "data": [
+      {
+        "text": "growth opportunities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-growth-3",
+    "data": [
+      {
+        "text": "promotion path",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-growth-4",
+    "data": [
+      {
+        "text": "long term career",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-growth-5",
+    "data": [
+      {
+        "text": "where can I go from here",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-growth-6",
+    "data": [
+      {
+        "text": "career progression",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

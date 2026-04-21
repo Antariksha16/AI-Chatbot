@@ -1,0 +1,30 @@
+{
+  "id": "intent-feedback_negative",
+  "name": "feedback.negative",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "feedback_negative",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I'm sorry to hear that! \ud83d\ude14 I'm still learning. Could you tell me what you were looking for? I'll try to give a better answer!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "phrase-career_select_ai_ml-0",
+    "data": [
+      {
+        "text": "AI",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_ai_ml-1",
+    "data": [
+      {
+        "text": "artificial intelligence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_ai_ml-2",
+    "data": [
+      {
+        "text": "machine learning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_ai_ml-3",
+    "data": [
+      {
+        "text": "AI ML",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_ai_ml-4",
+    "data": [
+      {
+        "text": "deep learning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_ai_ml-5",
+    "data": [
+      {
+        "text": "I want to learn AI",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_ai_ml-6",
+    "data": [
+      {
+        "text": "career in AI",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_ai_ml-7",
+    "data": [
+      {
+        "text": "AI engineer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "phrase-career_select_game_dev-0",
+    "data": [
+      {
+        "text": "game development",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_game_dev-1",
+    "data": [
+      {
+        "text": "game developer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_game_dev-2",
+    "data": [
+      {
+        "text": "unity",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_game_dev-3",
+    "data": [
+      {
+        "text": "unreal engine",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_game_dev-4",
+    "data": [
+      {
+        "text": "game design",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

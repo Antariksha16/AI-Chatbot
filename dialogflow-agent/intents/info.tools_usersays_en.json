@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-tools-0",
+    "data": [
+      {
+        "text": "tools used",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-tools-1",
+    "data": [
+      {
+        "text": "software used",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-tools-2",
+    "data": [
+      {
+        "text": "tech stack",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-tools-3",
+    "data": [
+      {
+        "text": "what tools do I need",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-tools-4",
+    "data": [
+      {
+        "text": "industry tools",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-tools-5",
+    "data": [
+      {
+        "text": "frameworks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

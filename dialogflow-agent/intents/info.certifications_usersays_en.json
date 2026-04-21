@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-certifications-0",
+    "data": [
+      {
+        "text": "certifications",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-certifications-1",
+    "data": [
+      {
+        "text": "which certification",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-certifications-2",
+    "data": [
+      {
+        "text": "best cert",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-certifications-3",
+    "data": [
+      {
+        "text": "certificate courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-certifications-4",
+    "data": [
+      {
+        "text": "which exam to give",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-certifications-5",
+    "data": [
+      {
+        "text": "certification roadmap",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

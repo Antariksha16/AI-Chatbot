@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-career_select_ui_ux-0",
+    "data": [
+      {
+        "text": "UI UX",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_ui_ux-1",
+    "data": [
+      {
+        "text": "user experience",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_ui_ux-2",
+    "data": [
+      {
+        "text": "user interface design",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_ui_ux-3",
+    "data": [
+      {
+        "text": "product design",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_ui_ux-4",
+    "data": [
+      {
+        "text": "UX designer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_ui_ux-5",
+    "data": [
+      {
+        "text": "UI designer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

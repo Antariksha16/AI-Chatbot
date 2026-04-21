@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ph-info_higher_studies-0",
+    "data": [
+      {
+        "text": "should I do masters",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_higher_studies-1",
+    "data": [
+      {
+        "text": "MS abroad vs job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_higher_studies-2",
+    "data": [
+      {
+        "text": "higher studies after BTech",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_higher_studies-3",
+    "data": [
+      {
+        "text": "MBA vs MTech",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_higher_studies-4",
+    "data": [
+      {
+        "text": "MS in CS abroad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

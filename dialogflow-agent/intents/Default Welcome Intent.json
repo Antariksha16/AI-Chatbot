@@ -1,0 +1,30 @@
+{
+  "id": "intent-welcome",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "\ud83d\udc4b Welcome to the AI Career Guidance Assistant!\n\nI can help you with:\n\u2022 \ud83c\udfaf Career roadmaps\n\u2022 \ud83d\udee0\ufe0f Skill recommendations\n\u2022 \ud83d\udcbc Job roles & salaries\n\u2022 \ud83d\udcc8 Growth opportunities\n\u2022 \u26a0\ufe0f AI impact analysis\n\nTell me: What career are you interested in? (e.g., AI/ML, Web Dev, Data Science, Cybersecurity, Cloud, DevOps, UI/UX, Finance Tech, Mobile Dev, Blockchain)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

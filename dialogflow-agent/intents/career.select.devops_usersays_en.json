@@ -1,0 +1,86 @@
+[
+  {
+    "id": "phrase-career_select_devops-0",
+    "data": [
+      {
+        "text": "devops",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_devops-1",
+    "data": [
+      {
+        "text": "dev ops",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_devops-2",
+    "data": [
+      {
+        "text": "CI CD",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_devops-3",
+    "data": [
+      {
+        "text": "kubernetes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_devops-4",
+    "data": [
+      {
+        "text": "docker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_devops-5",
+    "data": [
+      {
+        "text": "infrastructure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_devops-6",
+    "data": [
+      {
+        "text": "site reliability",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

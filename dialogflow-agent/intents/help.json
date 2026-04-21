@@ -1,0 +1,30 @@
+{
+  "id": "intent-help",
+  "name": "help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "help",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "\ud83e\udd16 **AI Career Guidance Bot \u2014 Help Menu**\n\nI can help you with:\n\n1\ufe0f\u20e3 **Career Roadmap** \u2014 Step-by-step learning path\n2\ufe0f\u20e3 **Required Skills** \u2014 Technical & soft skills\n3\ufe0f\u20e3 **Job Roles** \u2014 Titles you can target\n4\ufe0f\u20e3 **Salary Info** \u2014 India + Global ranges\n5\ufe0f\u20e3 **AI Risk Analysis** \u2014 Future-proofing your career\n6\ufe0f\u20e3 **Top Certifications** \u2014 Best certs to earn\n7\ufe0f\u20e3 **Interview Tips** \u2014 Crack your next interview\n8\ufe0f\u20e3 **Free Resources** \u2014 Best learning platforms\n9\ufe0f\u20e3 **Work Pressure** \u2014 Stress levels explained\n\ud83d\udd1f **Growth Path** \u2014 Long-term progression\n\nJust ask anything! \ud83d\ude0a"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

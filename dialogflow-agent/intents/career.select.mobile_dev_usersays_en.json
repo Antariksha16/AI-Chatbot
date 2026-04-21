@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-career_select_mobile_dev-0",
+    "data": [
+      {
+        "text": "mobile development",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_mobile_dev-1",
+    "data": [
+      {
+        "text": "android development",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_mobile_dev-2",
+    "data": [
+      {
+        "text": "iOS development",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_mobile_dev-3",
+    "data": [
+      {
+        "text": "flutter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_mobile_dev-4",
+    "data": [
+      {
+        "text": "react native",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_mobile_dev-5",
+    "data": [
+      {
+        "text": "mobile app developer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

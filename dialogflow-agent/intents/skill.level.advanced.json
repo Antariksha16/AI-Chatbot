@@ -1,0 +1,30 @@
+{
+  "id": "intent-skill_level_advanced",
+  "name": "skill.level.advanced",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "skill.level",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Got it! \ud83d\udd34 **Advanced level** noted.\n\nList your current skills so I can suggest the best upskilling path for you."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

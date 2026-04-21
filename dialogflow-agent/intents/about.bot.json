@@ -1,0 +1,30 @@
+{
+  "id": "intent-about_bot",
+  "name": "about.bot",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "about.bot",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "\ud83e\udd16 I'm the **AI Career Guidance Assistant** \u2014 your personal career advisor!\n\nI provide structured, domain-specific guidance on:\n\u2022 Tech career roadmaps\n\u2022 Skill gap analysis\n\u2022 Salary benchmarks\n\u2022 AI job risk assessment\n\u2022 Growth opportunities\n\nI currently support 10 major tech domains. Type **help** to see what I can do!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

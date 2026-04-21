@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ph-info_startup_vs_mnc-0",
+    "data": [
+      {
+        "text": "startup vs MNC",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_startup_vs_mnc-1",
+    "data": [
+      {
+        "text": "should I join startup or MNC",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_startup_vs_mnc-2",
+    "data": [
+      {
+        "text": "big company vs startup",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_startup_vs_mnc-3",
+    "data": [
+      {
+        "text": "startup salary vs MNC",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_startup_vs_mnc-4",
+    "data": [
+      {
+        "text": "pros cons startup",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "phrase-ai_impact-0",
+    "data": [
+      {
+        "text": "AI impact",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-ai_impact-1",
+    "data": [
+      {
+        "text": "will AI replace me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-ai_impact-2",
+    "data": [
+      {
+        "text": "AI risk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-ai_impact-3",
+    "data": [
+      {
+        "text": "job security",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-ai_impact-4",
+    "data": [
+      {
+        "text": "automation risk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-ai_impact-5",
+    "data": [
+      {
+        "text": "future of this job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-ai_impact-6",
+    "data": [
+      {
+        "text": "is it safe from AI",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "phrase-domain_suggestions-0",
+    "data": [
+      {
+        "text": "suggest a career",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-domain_suggestions-1",
+    "data": [
+      {
+        "text": "which career should I choose",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-domain_suggestions-2",
+    "data": [
+      {
+        "text": "best career in tech",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-domain_suggestions-3",
+    "data": [
+      {
+        "text": "what field to go into",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-domain_suggestions-4",
+    "data": [
+      {
+        "text": "recommend a career",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-domain_suggestions-5",
+    "data": [
+      {
+        "text": "what should I become",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-domain_suggestions-6",
+    "data": [
+      {
+        "text": "best paying career",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ph-info_women_in_tech-0",
+    "data": [
+      {
+        "text": "women in tech",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_women_in_tech-1",
+    "data": [
+      {
+        "text": "female developers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_women_in_tech-2",
+    "data": [
+      {
+        "text": "gender diversity tech",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_women_in_tech-3",
+    "data": [
+      {
+        "text": "resources for women in tech",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_women_in_tech-4",
+    "data": [
+      {
+        "text": "scholarships women tech",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

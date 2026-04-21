@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-paid_courses-0",
+    "data": [
+      {
+        "text": "paid courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-paid_courses-1",
+    "data": [
+      {
+        "text": "best courses to buy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-paid_courses-2",
+    "data": [
+      {
+        "text": "Udemy courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-paid_courses-3",
+    "data": [
+      {
+        "text": "Coursera",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-paid_courses-4",
+    "data": [
+      {
+        "text": "which course to buy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-paid_courses-5",
+    "data": [
+      {
+        "text": "online paid training",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

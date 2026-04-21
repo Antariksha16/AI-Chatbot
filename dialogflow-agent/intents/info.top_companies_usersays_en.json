@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-top_companies-0",
+    "data": [
+      {
+        "text": "top companies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-top_companies-1",
+    "data": [
+      {
+        "text": "best companies to work for",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-top_companies-2",
+    "data": [
+      {
+        "text": "which companies hire",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-top_companies-3",
+    "data": [
+      {
+        "text": "FAANG",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-top_companies-4",
+    "data": [
+      {
+        "text": "MNCs hiring",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-top_companies-5",
+    "data": [
+      {
+        "text": "startups vs MNC",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

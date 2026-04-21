@@ -1,0 +1,98 @@
+[
+  {
+    "id": "phrase-skill_level_beginner-0",
+    "data": [
+      {
+        "text": "beginner",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_beginner-1",
+    "data": [
+      {
+        "text": "I am a beginner",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_beginner-2",
+    "data": [
+      {
+        "text": "no experience",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_beginner-3",
+    "data": [
+      {
+        "text": "just starting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_beginner-4",
+    "data": [
+      {
+        "text": "fresher",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_beginner-5",
+    "data": [
+      {
+        "text": "newbie",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_beginner-6",
+    "data": [
+      {
+        "text": "zero knowledge",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_beginner-7",
+    "data": [
+      {
+        "text": "I don't know anything",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

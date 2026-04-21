@@ -1,0 +1,86 @@
+[
+  {
+    "id": "phrase-career_select_cloud_computing-0",
+    "data": [
+      {
+        "text": "cloud computing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_cloud_computing-1",
+    "data": [
+      {
+        "text": "AWS",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_cloud_computing-2",
+    "data": [
+      {
+        "text": "Azure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_cloud_computing-3",
+    "data": [
+      {
+        "text": "GCP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_cloud_computing-4",
+    "data": [
+      {
+        "text": "cloud engineer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_cloud_computing-5",
+    "data": [
+      {
+        "text": "cloud architect",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_cloud_computing-6",
+    "data": [
+      {
+        "text": "devops cloud",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

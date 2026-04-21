@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-compare_careers-0",
+    "data": [
+      {
+        "text": "compare AI vs data science",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-compare_careers-1",
+    "data": [
+      {
+        "text": "which is better AI or web dev",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-compare_careers-2",
+    "data": [
+      {
+        "text": "compare careers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-compare_careers-3",
+    "data": [
+      {
+        "text": "AI vs cybersecurity",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-compare_careers-4",
+    "data": [
+      {
+        "text": "data science vs ML",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-compare_careers-5",
+    "data": [
+      {
+        "text": "which field pays more",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

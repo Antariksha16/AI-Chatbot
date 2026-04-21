@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ph-info_soft_skills-0",
+    "data": [
+      {
+        "text": "soft skills for tech",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_soft_skills-1",
+    "data": [
+      {
+        "text": "communication skills developer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_soft_skills-2",
+    "data": [
+      {
+        "text": "interpersonal skills",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_soft_skills-3",
+    "data": [
+      {
+        "text": "non technical skills important",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_soft_skills-4",
+    "data": [
+      {
+        "text": "emotional intelligence tech",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

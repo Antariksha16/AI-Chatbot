@@ -1,0 +1,30 @@
+{
+  "id": "intent-skill_level_intermediate",
+  "name": "skill.level.intermediate",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "skill.level",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Got it! \ud83d\udfe1 **Intermediate level** noted.\n\nWhat skills do you already have? (e.g., Python, React, SQL, etc.)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

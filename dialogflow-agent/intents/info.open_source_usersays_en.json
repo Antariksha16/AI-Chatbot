@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ph-info_open_source-0",
+    "data": [
+      {
+        "text": "open source contribution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_open_source-1",
+    "data": [
+      {
+        "text": "how to contribute to open source",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_open_source-2",
+    "data": [
+      {
+        "text": "open source for beginners",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_open_source-3",
+    "data": [
+      {
+        "text": "GitHub contributions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_open_source-4",
+    "data": [
+      {
+        "text": "first open source PR",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

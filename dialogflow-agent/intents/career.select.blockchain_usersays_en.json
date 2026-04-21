@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-career_select_blockchain-0",
+    "data": [
+      {
+        "text": "blockchain",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_blockchain-1",
+    "data": [
+      {
+        "text": "web3",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_blockchain-2",
+    "data": [
+      {
+        "text": "smart contracts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_blockchain-3",
+    "data": [
+      {
+        "text": "solidity",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_blockchain-4",
+    "data": [
+      {
+        "text": "cryptocurrency developer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_blockchain-5",
+    "data": [
+      {
+        "text": "DeFi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

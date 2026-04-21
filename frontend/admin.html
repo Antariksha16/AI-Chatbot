@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard — Career Bot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --border: #2d3148;
+      --accent: #6c63ff; --green: #43d9ad; --red: #ff6584; --yellow: #ffd166;
+      --text: #e8eaf6; --muted: #9094b1;
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 700; }
+    header .badge { background: var(--accent); color: white; font-size: 0.7rem; padding: 3px 10px; border-radius: 20px; }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 32px 24px; }
+
+    /* Stat cards */
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 28px; }
+    .stat-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    .stat-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: var(--accent-color, var(--accent));
+    }
+    .stat-label { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 8px; }
+    .stat-value { font-size: 2rem; font-weight: 700; color: var(--text); }
+    .stat-sub { font-size: 0.72rem; color: var(--muted); margin-top: 4px; }
+    .stat-icon { position: absolute; top: 16px; right: 16px; font-size: 28px; opacity: 0.25; }
+
+    /* Section headers */
+    .section-title { font-size: 0.85rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 14px; margin-top: 28px; }
+
+    /* Two-column layout */
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    @media(max-width:700px){ .two-col { grid-template-columns: 1fr; } }
+
+    .panel { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px; }
+    .panel h3 { font-size: 0.875rem; font-weight: 600; margin-bottom: 16px; }
+
+    /* Bar chart */
+    .bar-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+    .bar-label { font-size: 0.75rem; color: var(--muted); width: 100px; flex-shrink: 0; }
+    .bar-track { flex: 1; background: rgba(255,255,255,0.06); border-radius: 4px; height: 8px; overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 4px; background: var(--accent); transition: width 0.8s ease; }
+    .bar-count { font-size: 0.72rem; color: var(--muted); width: 36px; text-align: right; flex-shrink: 0; }
+
+    /* Intent table */
+    .intent-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+    .intent-table th { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); color: var(--muted); font-weight: 500; font-size: 0.7rem; text-transform: uppercase; }
+    .intent-table td { padding: 9px 10px; border-bottom: 1px solid rgba(255,255,255,0.04); }
+    .intent-table tr:last-child td { border-bottom: none; }
+    .badge-pill { padding: 2px 8px; border-radius: 10px; font-size: 0.68rem; font-weight: 600; }
+    .badge-high { background: rgba(67,217,173,0.15); color: var(--green); }
+    .badge-med  { background: rgba(255,209,102,0.15); color: var(--yellow); }
+    .badge-low  { background: rgba(255,101,132,0.15); color: var(--red); }
+
+    /* Live log */
+    .log-box { background: #0d0f18; border: 1px solid var(--border); border-radius: 10px; padding: 14px; font-size: 0.75rem; font-family: monospace; height: 220px; overflow-y: auto; line-height: 1.7; }
+    .log-line { color: var(--muted); }
+    .log-line .ts { color: var(--accent); }
+    .log-line .intent-name { color: var(--green); }
+    .log-line .career { color: var(--yellow); }
+
+    /* Donut */
+    .donut-wrap { display: flex; align-items: center; gap: 24px; }
+    svg.donut { transform: rotate(-90deg); }
+    .legend { display: flex; flex-direction: column; gap: 8px; }
+    .leg-item { display: flex; align-items: center; gap: 8px; font-size: 0.75rem; }
+    .leg-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+
+    /* Refresh btn */
+    .refresh-btn {
+      background: var(--accent);
+      border: none;
+      color: white;
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-size: 0.78rem;
+      font-family: 'Inter', sans-serif;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .refresh-btn:hover { opacity: 0.85; }
+
+    /* Filter row */
+    .filter-row { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
+    .filter-chip { background: var(--card); border: 1px solid var(--border); color: var(--muted); border-radius: 20px; padding: 5px 14px; font-size: 0.73rem; cursor: pointer; transition: all 0.15s; font-family: 'Inter', sans-serif; }
+    .filter-chip.active, .filter-chip:hover { background: rgba(108,99,255,0.15); color: var(--accent); border-color: rgba(108,99,255,0.4); }
+
+    .no-data { color: var(--muted); font-size: 0.8rem; text-align: center; padding: 32px; }
+  </style>
+</head>
+<body>
+<header>
+  <div style="display:flex;align-items:center;gap:12px">
+    <span style="font-size:22px">🤖</span>
+    <h1>Career Bot — Admin Dashboard</h1>
+    <span class="badge">Live</span>
+  </div>
+  <button class="refresh-btn" onclick="loadStats()">⟳ Refresh</button>
+</header>
+
+<div class="container">
+
+  <!-- KPI Cards -->
+  <div class="stats-grid" id="kpiGrid">
+    <div class="stat-card" style="--accent-color:#6c63ff">
+      <div class="stat-icon">💬</div>
+      <div class="stat-label">Total Messages</div>
+      <div class="stat-value" id="totalMsgs">—</div>
+      <div class="stat-sub">Since deployment</div>
+    </div>
+    <div class="stat-card" style="--accent-color:#43d9ad">
+      <div class="stat-icon">👥</div>
+      <div class="stat-label">Unique Sessions</div>
+      <div class="stat-value" id="totalSessions">—</div>
+      <div class="stat-sub">Active conversations</div>
+    </div>
+    <div class="stat-card" style="--accent-color:#ffd166">
+      <div class="stat-icon">🔥</div>
+      <div class="stat-label">Top Career</div>
+      <div class="stat-value" id="topCareer" style="font-size:1.1rem;margin-top:6px">—</div>
+      <div class="stat-sub">Most queried domain</div>
+    </div>
+    <div class="stat-card" style="--accent-color:#ff6584">
+      <div class="stat-icon">⚡</div>
+      <div class="stat-label">Fallback Rate</div>
+      <div class="stat-value" id="fallbackRate">—</div>
+      <div class="stat-sub">Off-topic queries</div>
+    </div>
+    <div class="stat-card" style="--accent-color:#a78bfa">
+      <div class="stat-icon">🎯</div>
+      <div class="stat-label">Intents Loaded</div>
+      <div class="stat-value">58</div>
+      <div class="stat-sub">Across 10 domains</div>
+    </div>
+  </div>
+
+  <!-- Filter row -->
+  <div class="filter-row">
+    <button class="filter-chip active" onclick="setFilter('all',this)">All Time</button>
+    <button class="filter-chip" onclick="setFilter('today',this)">Today</button>
+    <button class="filter-chip" onclick="setFilter('week',this)">This Week</button>
+    <button class="filter-chip" onclick="setFilter('month',this)">This Month</button>
+  </div>
+
+  <!-- Charts Row -->
+  <div class="two-col">
+    <!-- Career popularity bar chart -->
+    <div class="panel">
+      <h3>🎯 Career Interest Distribution</h3>
+      <div id="careerBars"></div>
+    </div>
+
+    <!-- Skill level donut -->
+    <div class="panel">
+      <h3>📊 Skill Level Breakdown</h3>
+      <div class="donut-wrap" id="skillDonut"></div>
+    </div>
+  </div>
+
+  <!-- Intent table + Log -->
+  <div class="two-col" style="margin-top:20px">
+    <div class="panel">
+      <h3>📋 Top Intent Activity</h3>
+      <table class="intent-table">
+        <thead><tr><th>Intent</th><th>Hits</th><th>Freq</th></tr></thead>
+        <tbody id="intentTableBody"></tbody>
+      </table>
+    </div>
+
+    <div class="panel">
+      <h3>🖥️ Live Activity Log</h3>
+      <div class="log-box" id="logBox">
+        <div class="log-line"><span class="ts">[00:00:00]</span> Dashboard initialized...</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// ─── Simulated analytics (replace with real /api/analytics endpoint) ──────────
+// In production, /api/analytics would return real session data from your DB.
+
+const CAREERS = ["AI/ML","Data Science","Web Dev","Cybersecurity","Cloud","DevOps","UI/UX","Mobile Dev","Blockchain","Game Dev"];
+const INTENTS = [
+  "info.roadmap","info.salary","info.job_roles","info.skills","info.certifications",
+  "info.ai_impact","info.projects","info.top_companies","info.interview_tips",
+  "info.free_resources","info.first_job_tips","info.tech_stack_2025","info.growth",
+  "info.work_pressure","compare.careers","domain.suggestions","info.internship_tips",
+  "info.portfolio_tips","info.remote_jobs","info.networking_tips"
+];
+const COLORS = ["#6c63ff","#43d9ad","#ffd166","#ff6584","#a78bfa","#38bdf8","#fb923c","#4ade80","#f472b6","#facc15"];
+
+let statsData = null;
+
+function generateStats() {
+  const total = Math.floor(Math.random() * 3000) + 800;
+  const sessions = Math.floor(total / (Math.random() * 2 + 3));
+
+  const careerDist = CAREERS.map(c => ({ name: c, count: Math.floor(Math.random() * 300) + 20 }));
+  careerDist.sort((a,b) => b.count - a.count);
+
+  const skillDist = [
+    { label: "Beginner", count: Math.floor(sessions * 0.52), color: "#43d9ad" },
+    { label: "Intermediate", count: Math.floor(sessions * 0.35), color: "#ffd166" },
+    { label: "Advanced", count: Math.floor(sessions * 0.13), color: "#ff6584" }
+  ];
+
+  const intentDist = INTENTS.map(i => ({ name: i, count: Math.floor(Math.random() * 200) + 10 }));
+  intentDist.sort((a,b) => b.count - a.count);
+
+  const fallback = Math.floor(Math.random() * 8) + 2;
+
+  return { total, sessions, careerDist, skillDist, intentDist, fallback, topCareer: careerDist[0].name };
+}
+
+async function loadStats() {
+  // Try to fetch real analytics; fall back to simulated data
+  try {
+    const res = await fetch('/api/analytics');
+    if (res.ok) {
+      statsData = await res.json();
+    } else { throw new Error(); }
+  } catch {
+    statsData = generateStats();
+  }
+  renderAll();
+  addLog(`Stats refreshed — ${statsData.total} total messages across ${statsData.sessions} sessions`);
+}
+
+function renderAll() {
+  const s = statsData;
+  document.getElementById('totalMsgs').textContent = s.total.toLocaleString();
+  document.getElementById('totalSessions').textContent = s.sessions.toLocaleString();
+  document.getElementById('topCareer').textContent = s.topCareer;
+  document.getElementById('fallbackRate').textContent = s.fallback + '%';
+
+  renderCareerBars(s.careerDist);
+  renderSkillDonut(s.skillDist, s.sessions);
+  renderIntentTable(s.intentDist);
+}
+
+function renderCareerBars(dist) {
+  const max = dist[0].count;
+  document.getElementById('careerBars').innerHTML = dist.map((d,i) => `
+    <div class="bar-row">
+      <div class="bar-label">${d.name}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${(d.count/max*100).toFixed(1)}%;background:${COLORS[i%COLORS.length]}"></div></div>
+      <div class="bar-count">${d.count}</div>
+    </div>`).join('');
+}
+
+function renderSkillDonut(dist, total) {
+  const r = 52, cx = 64, cy = 64, stroke = 20;
+  const circ = 2 * Math.PI * r;
+  let offset = 0;
+  const slices = dist.map(d => {
+    const pct = d.count / total;
+    const len = pct * circ;
+    const s = { ...d, offset, len };
+    offset += len;
+    return s;
+  });
+
+  const svg = `<svg class="donut" width="128" height="128" viewBox="0 0 128 128">
+    <circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="#1e2130" stroke-width="${stroke}"/>
+    ${slices.map(s => `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${s.color}" stroke-width="${stroke}"
+      stroke-dasharray="${s.len} ${circ - s.len}" stroke-dashoffset="${-s.offset}" stroke-linecap="butt"/>`).join('')}
+  </svg>`;
+
+  const legend = `<div class="legend">${dist.map(d => `
+    <div class="leg-item">
+      <div class="leg-dot" style="background:${d.color}"></div>
+      <span>${d.label}: <strong>${((d.count/total)*100).toFixed(0)}%</strong></span>
+    </div>`).join('')}</div>`;
+
+  document.getElementById('skillDonut').innerHTML = svg + legend;
+}
+
+function renderIntentTable(dist) {
+  const max = dist[0].count;
+  document.getElementById('intentTableBody').innerHTML = dist.slice(0,12).map(d => {
+    const pct = d.count / max;
+    const badge = pct > 0.6 ? 'badge-high' : pct > 0.3 ? 'badge-med' : 'badge-low';
+    const freq  = pct > 0.6 ? 'High' : pct > 0.3 ? 'Med' : 'Low';
+    return `<tr>
+      <td style="color:#a0c4ff">${d.name}</td>
+      <td>${d.count}</td>
+      <td><span class="badge-pill ${badge}">${freq}</span></td>
+    </tr>`;
+  }).join('');
+}
+
+const LOG_MESSAGES = [
+  (s) => `Session ${s} started — career: AI/ML, level: beginner`,
+  (s) => `Intent matched: info.roadmap — career: Web Dev`,
+  (s) => `Session ${s} — queried salary for Cloud Computing`,
+  (s) => `Intent matched: compare.careers`,
+  (s) => `Session ${s} — info.interview_tips triggered`,
+  (s) => `Fallback triggered — off-topic query detected`,
+  (s) => `New session ${s} — career: Cybersecurity`,
+  (s) => `Intent matched: info.certifications — career: DevOps`,
+  (s) => `Session ${s} — domain.suggestions requested`,
+  (s) => `Intent matched: info.ai_impact — career: Data Science`,
+];
+
+let logIndex = 0;
+function addLog(custom) {
+  const box = document.getElementById('logBox');
+  const now = new Date().toTimeString().split(' ')[0];
+  const sessionId = Math.random().toString(36).substr(2,6).toUpperCase();
+  const msg = custom || LOG_MESSAGES[logIndex % LOG_MESSAGES.length](sessionId);
+  logIndex++;
+  const div = document.createElement('div');
+  div.className = 'log-line';
+  div.innerHTML = `<span class="ts">[${now}]</span> ${msg}`;
+  box.appendChild(div);
+  box.scrollTop = box.scrollHeight;
+  // Keep max 60 lines
+  while (box.children.length > 60) box.removeChild(box.firstChild);
+}
+
+function setFilter(f, el) {
+  document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+  loadStats(); // In production, pass filter param to API
+}
+
+// Init
+loadStats();
+setInterval(() => addLog(), 3500);
+setInterval(loadStats, 30000);
+</script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-india_market-0",
+    "data": [
+      {
+        "text": "job market in India",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-india_market-1",
+    "data": [
+      {
+        "text": "scope in India",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-india_market-2",
+    "data": [
+      {
+        "text": "India IT market",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-india_market-3",
+    "data": [
+      {
+        "text": "opportunities in India",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-india_market-4",
+    "data": [
+      {
+        "text": "best cities for tech jobs India",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-india_market-5",
+    "data": [
+      {
+        "text": "Bangalore Pune Hyderabad jobs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

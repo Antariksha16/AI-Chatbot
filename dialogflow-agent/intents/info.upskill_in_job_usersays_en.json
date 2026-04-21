@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ph-info_upskill_in_job-0",
+    "data": [
+      {
+        "text": "how to upskill while working",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_upskill_in_job-1",
+    "data": [
+      {
+        "text": "learn while working full time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_upskill_in_job-2",
+    "data": [
+      {
+        "text": "upskill in job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_upskill_in_job-3",
+    "data": [
+      {
+        "text": "improve skills at work",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "ph-info_upskill_in_job-4",
+    "data": [
+      {
+        "text": "professional development tips",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

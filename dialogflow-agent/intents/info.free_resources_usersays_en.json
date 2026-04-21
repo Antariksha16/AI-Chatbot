@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-free_resources-0",
+    "data": [
+      {
+        "text": "free courses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-free_resources-1",
+    "data": [
+      {
+        "text": "free resources",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-free_resources-2",
+    "data": [
+      {
+        "text": "where to learn for free",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-free_resources-3",
+    "data": [
+      {
+        "text": "YouTube channels",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-free_resources-4",
+    "data": [
+      {
+        "text": "free learning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-free_resources-5",
+    "data": [
+      {
+        "text": "best websites to learn",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

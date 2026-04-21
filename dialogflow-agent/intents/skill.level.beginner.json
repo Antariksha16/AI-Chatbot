@@ -1,0 +1,30 @@
+{
+  "id": "intent-skill_level_beginner",
+  "name": "skill.level.beginner",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "skill.level",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Got it! \ud83d\udfe2 **Beginner level** noted.\n\nNow tell me \u2014 what skills do you already know? (e.g., Python, JavaScript, Excel, or just type 'none' if you're starting fresh)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

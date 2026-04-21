@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-career_select_data_science-0",
+    "data": [
+      {
+        "text": "data science",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_data_science-1",
+    "data": [
+      {
+        "text": "data scientist",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_data_science-2",
+    "data": [
+      {
+        "text": "data analysis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_data_science-3",
+    "data": [
+      {
+        "text": "data analytics",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_data_science-4",
+    "data": [
+      {
+        "text": "big data",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-career_select_data_science-5",
+    "data": [
+      {
+        "text": "career in data science",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

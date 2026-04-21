@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-projects-0",
+    "data": [
+      {
+        "text": "project ideas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-projects-1",
+    "data": [
+      {
+        "text": "what projects to build",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-projects-2",
+    "data": [
+      {
+        "text": "portfolio projects",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-projects-3",
+    "data": [
+      {
+        "text": "practical projects",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-projects-4",
+    "data": [
+      {
+        "text": "hands on projects",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-projects-5",
+    "data": [
+      {
+        "text": "projects for beginners",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

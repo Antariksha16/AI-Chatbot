@@ -1,0 +1,28 @@
+{
+  "description": "AI Career Guidance Assistant",
+  "language": "en",
+  "shortDescription": "Career guidance bot for skills, jobs, and learning paths",
+  "examples": "",
+  "linkToDocs": "",
+  "enableLogging": true,
+  "defaultTimezone": "Asia/Kolkata",
+  "webhook": {
+    "url": "https://your-vercel-app.vercel.app/api/webhook",
+    "username": "",
+    "headers": {},
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false,
+  "baseActionPackagesUrl": ""
+}

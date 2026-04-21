@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-skill_level_advanced-0",
+    "data": [
+      {
+        "text": "advanced",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_advanced-1",
+    "data": [
+      {
+        "text": "I am experienced",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_advanced-2",
+    "data": [
+      {
+        "text": "senior level",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_advanced-3",
+    "data": [
+      {
+        "text": "professional",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_advanced-4",
+    "data": [
+      {
+        "text": "working for 3+ years",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skill_level_advanced-5",
+    "data": [
+      {
+        "text": "expert level",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

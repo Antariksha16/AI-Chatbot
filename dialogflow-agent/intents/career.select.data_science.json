@@ -1,0 +1,30 @@
+{
+  "id": "intent-career_select_data_science",
+  "name": "career.select.data_science",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "career.select.data_science",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Great choice! \ud83c\udfaf You're interested in **Data Science**.\n\nTo give you a personalized roadmap, what is your current skill level?\n\n\u2022 \ud83d\udfe2 **Beginner** \u2013 Little to no experience\n\u2022 \ud83d\udfe1 **Intermediate** \u2013 Some experience, know basics\n\u2022 \ud83d\udd34 **Advanced** \u2013 Working professional looking to upskill"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

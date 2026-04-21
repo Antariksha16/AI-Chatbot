@@ -1,0 +1,86 @@
+[
+  {
+    "id": "phrase-roadmap-0",
+    "data": [
+      {
+        "text": "show me roadmap",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-roadmap-1",
+    "data": [
+      {
+        "text": "give me a roadmap",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-roadmap-2",
+    "data": [
+      {
+        "text": "learning path",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-roadmap-3",
+    "data": [
+      {
+        "text": "how to learn",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-roadmap-4",
+    "data": [
+      {
+        "text": "step by step guide",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-roadmap-5",
+    "data": [
+      {
+        "text": "where to start",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-roadmap-6",
+    "data": [
+      {
+        "text": "what should I learn first",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

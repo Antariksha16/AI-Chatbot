@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-freelancing-0",
+    "data": [
+      {
+        "text": "can I freelance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-freelancing-1",
+    "data": [
+      {
+        "text": "freelancing opportunities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-freelancing-2",
+    "data": [
+      {
+        "text": "freelance work",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-freelancing-3",
+    "data": [
+      {
+        "text": "remote work",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-freelancing-4",
+    "data": [
+      {
+        "text": "work from home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-freelancing-5",
+    "data": [
+      {
+        "text": "gig work in this field",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]

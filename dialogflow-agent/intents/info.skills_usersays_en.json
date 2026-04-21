@@ -1,0 +1,74 @@
+[
+  {
+    "id": "phrase-skills-0",
+    "data": [
+      {
+        "text": "what skills do I need",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skills-1",
+    "data": [
+      {
+        "text": "required skills",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skills-2",
+    "data": [
+      {
+        "text": "skills needed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skills-3",
+    "data": [
+      {
+        "text": "technical skills",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skills-4",
+    "data": [
+      {
+        "text": "what should I know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  },
+  {
+    "id": "phrase-skills-5",
+    "data": [
+      {
+        "text": "skill list",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en"
+  }
+]
