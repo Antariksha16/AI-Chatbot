@@ -6,6 +6,8 @@
   <title>AI Career Guidance Bot</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <!-- Dialogflow Messenger -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
   <style>
     /* ─── CSS Reset & Variables ─────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -510,6 +512,24 @@
       .msg-wrapper { max-width: 92%; }
       header { padding: 10px 14px; }
     }
+
+    /* ─── Dialogflow Messenger Theming ───────────────────────── */
+    df-messenger {
+      --df-messenger-bot-message: #1e2130;
+      --df-messenger-button-titlebar-color: #6c63ff;
+      --df-messenger-chat-background-color: #0f1117;
+      --df-messenger-font-color: #e8eaf6;
+      --df-messenger-send-icon: #6c63ff;
+      --df-messenger-user-message: #6c63ff;
+      --df-messenger-input-box-color: #252836;
+      --df-messenger-input-font-color: #e8eaf6;
+      --df-messenger-input-placeholder-font-color: #5a5e7a;
+      --df-messenger-minimized-icon-color: #fff;
+      z-index: 9999;
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+    }
   </style>
 </head>
 <body>
@@ -608,6 +628,13 @@
 
 <!-- Toast -->
 <div class="toast" id="toast"></div>
+
+<!-- Dialogflow Messenger Widget -->
+<df-messenger
+  chat-title="AI_Bot"
+  agent-id="4d62bc1d-2701-4ce2-a897-27445ca341d9"
+  language-code="en"
+></df-messenger>
 
 <script>
   // ─── Config ───────────────────────────────────────────────
